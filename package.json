@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/sjkim106/clone-instagram/issues"
   },
-  "homepage": "https://github.com/sjkim106/clone-instagram#readme"
+  "homepage": "https://github.com/sjkim106/clone-instagram#readme",
+  "dependencies": {
+    "apollo-server": "^2.25.2",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
